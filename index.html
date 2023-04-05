@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desgine-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    div.container {
+        background-image: url('/images/bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    div.navbar {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.517);
+        background-image: linear-gradient(Pink, silver);
+        width: 100%;
+        height: 50px;
+        box-sizing: content-box;
+        box-shadow: 0px -20px 30px;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        margin-left: 10px;
+    }
+
+    div.links {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+    }
+
+    ul {
+        margin: 15px 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .singup-btn {
+        background-color: darkcyan;
+        border-radius: 100px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+    }
+
+    h4 a {
+        color: white;
+    }
+
+    .item-list {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        background-color: white;
+        margin: auto;
+        height: auto;
+        width: 1280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item {
+        background-color: skyblue;
+        width: 360px;
+        height: 440px;
+        margin: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .item:hover {
+        background-image: linear-gradient(Pink, silver);
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        margin-top: 13px;
+        border-radius: 10px;
+    }
+
+    .card p {
+        text-align: justify;
+        padding: 20px;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .title {
+        margin-top: 10px;
+        width: 100%;
+        text-indent: 19px;
+        font-weight: bold;
+    }
+
+    .view {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkslategray;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .view:hover {
+        background-color: white;
+        color: darkslategray;
+    }
+
+    .about {
+        background-color: pink;
+        width: 100%;
+        height: 400px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="/images/logo.jpg" width="30px">
+            </div>
+            <div class="links">
+                <ul><a href="_blank">Home</a></ul>
+                <ul><a href="_blank">Menu</a></ul>
+                <ul><a href="_blank">Items</a></ul>
+                <ul><a href="_blank">About</a></ul>
+                <div class="singup-btn">
+                    <h4><a href="singup.html">Singup</a></h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="item-list">
+        <div class="product">
+            <div class="item-1 item">
+                <div class="card">
+                    <img src="/images/image-1.jpg" width="330px">
+                    <div class="title">Lorem ispa</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem ab itaque
+                        impedit laudantium, possimus amet perferendis sit quibusdam ad a. Facilis eveniet ex rerum
+                        cupiditate id quos quaerat quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid officiis nisi perspiciatis sed illo.</p>
+                    <div class="view">
+                        View
+                    </div>
+                </div>
+            </div>
+            <div class="item-2 item">
+                <div class="card">
+                    <img src="/images/image-2.jpg" width="330px">
+                    <div class="title">Lorem ispa</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem ab itaque
+                        impedit laudantium, possimus amet perferendis sit quibusdam ad a. Facilis eveniet ex rerum
+                        cupiditate id quos quaerat quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid officiis nisi perspiciatis sed illo.</p>
+                    <div class="view">
+                        View
+                    </div>
+                </div>
+            </div>
+            <div class="item-3 item">
+                <div class="card">
+                    <img src="/images/image-3.jpg" width="330px">
+                    <div class="title">Lorem ispa</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem ab itaque
+                        impedit laudantium, possimus amet perferendis sit quibusdam ad a. Facilis eveniet ex rerum
+                        cupiditate id quos quaerat quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid officiis nisi perspiciatis sed illo.</p>
+                    <div class="view">
+                        View
+                    </div>
+                </div>
+            </div>
+            <div class="item-4 item">
+                <div class="card">
+                    <img src="/images/image-4.jpg" width="330px">
+                    <div class="title">Lorem ispa</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem ab itaque
+                        impedit laudantium, possimus amet perferendis sit quibusdam ad a. Facilis eveniet ex rerum
+                        cupiditate id quos quaerat quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid officiis nisi perspiciatis sed illo.</p>
+                    <div class="view">
+                        View
+                    </div>
+                </div>
+            </div>
+            <div class="item-5 item">
+                <div class="card">
+                    <img src="/images/image-5.jpg" width="330px">
+                    <div class="title">Lorem ispa</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem ab itaque
+                        impedit laudantium, possimus amet perferendis sit quibusdam ad a. Facilis eveniet ex rerum
+                        cupiditate id quos quaerat quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid officiis nisi perspiciatis sed illo.</p>
+                    <div class="view">
+                        View
+                    </div>
+                </div>
+            </div>
+            <div class="item-6 item">
+                <div class="card">
+                    <img src="/images/image-6.jpg" width="330px">
+                    <div class="title">Lorem ispa</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem ab itaque
+                        impedit laudantium, possimus amet perferendis sit quibusdam ad a. Facilis eveniet ex rerum
+                        cupiditate id quos quaerat quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid officiis nisi perspiciatis sed illo.</p>
+                    <div class="view">
+                        View
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        
+    </div>
+</body>
+
+</html>
